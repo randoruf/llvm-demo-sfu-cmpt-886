@@ -6,6 +6,24 @@ The provided analyses count the number of direct invocations of a particular
 function are present within a program or within and execution depending on
 whether static or dynamic analysis is used.
 
+# Install LLVM
+
+```bash
+brew install llvm-13 
+```
+
+Then the installed location is 
+
+```
+/usr/local/opt/llvm/
+```
+
+For example, 
+
+```
+-DLLVM_DIR=/usr/local/opt/llvm/lib/cmake/llvm/
+```
+
 Building with CMake
 ==============================================
 1. Clone the demo repository.
